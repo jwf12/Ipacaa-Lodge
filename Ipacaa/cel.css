@@ -1,0 +1,261 @@
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 62%;
+        font-family: 'DM Sans', sans-serif;
+        
+    }
+    
+    #logo-menu{
+        display: none;
+    }
+    .encabezado label{
+        display: none;
+    }
+    header{
+        width: 100%;
+        background-color: rgb(88, 19, 29);
+        position: fixed;
+        top: 0px;
+        min-width: 300px;
+        z-index: 1;
+    
+    }
+    .encabezado{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        min-width: 300px;
+    }
+    .encabezado a{
+        text-decoration: none;
+        
+    }
+    .list li{
+        padding: 5px;
+        
+    }
+    .list li a{
+        text-decoration: none;
+        font-style: none;
+        color: aliceblue;
+    }
+    .list li:hover{
+        background-color: rgb(0, 0, 0, 0.3);
+    }
+    .img-logo{
+        width: 160px;
+        height: 70px;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        color: aliceblue;
+        font-size: 1.6rem;
+    }
+
+    .main-container{
+        width: 100%;
+    }
+    .seccion1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seccion1 h1{
+        position: absolute;
+        font-size: 5.0rem;
+        color: antiquewhite;
+        text-decoration: underline;
+    }
+    .seccion1 picture{
+        width: 100%;
+    }
+    .seccion1 img{
+        width: 100%;
+    }
+
+
+
+    .seccion2{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: bisque;
+        border: 2px solid;
+        font-size: 1.4rem;
+    }
+    .seccion2--container-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-contenido{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .info-contenido p{
+        width: 50%;
+    }
+    .info-contenido picture{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        margin: 5px;
+
+    }
+    .info-contenido img{
+        border-radius: 5px;
+        width: 100%;
+    }
+    .habitaciones{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        background-color: bisque;
+        border-left: 2px solid;
+        border-right: 2px solid;
+        border-bottom: 2px solid;
+
+    }
+    .habitaciones--main{
+        display: flex;
+        text-align: center;
+    }
+    .main-agua{
+        width: 33%;
+    }
+    .contenido{
+        width: 100%;
+       
+    }
+    .contenido p{
+        width: 90%;
+        margin: auto;
+    }
+    .contenido img{
+        width: 90%;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 8px grey;
+    }
+    .main-fuego{
+        width: 33%;
+    }
+    .fuego-contenido{
+        width: 100%;
+    }
+    .fuego-contenido p{
+        width: 90%;
+        margin: auto;
+    }
+    .fuego-contenido img{
+        width: 90%;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 8px grey;
+    }
+    .main-tierra{
+        width: 33%;
+    }
+    .contenido1{
+        width: 100%;
+    }
+    .contenido1 p{
+        margin: auto;
+        width: 90%;
+    }
+    .contenido1 img{
+        width: 90%;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 8px grey;
+    }
+    .servicios{
+        display: flex;
+        text-align: center;
+        align-items: baseline;
+        width: 100%;
+        background-color: rgb(88, 19, 29);
+        font-size: 1.4rem;
+    }
+   picture.restaurant img{
+    width: 160px;
+    margin: 15px;
+   }
+   picture.pesca img{
+    width: 120px;
+    margin: 15px;
+   }
+   picture.pileta img{
+    width: 105px;
+    margin: 15px;
+   }
+   .pileta p{
+       margin-bottom: 15px;
+   }
+    .pesca  p{
+    margin-bottom: 15px;
+    }
+    .servicios--contenido p{
+        margin-bottom: 15px;
+    }
+    .contacto{
+        width: 100%;
+        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid;
+    }
+    .contacto-main{
+        margin-bottom: 5px;
+    }
+    form{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
+    footer{
+        background-color: rgb(88, 19, 29);
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+    }
+    .book{
+        width:85px;
+    }
+    .datos{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 2px solid;
+    }
+    .datos p{
+        margin: 10px;
+    }
+    .datos h2{
+        margin: 10px;
+    }
+
+
+
+  
+
+
