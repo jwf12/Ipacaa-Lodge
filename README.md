@@ -1,2 +1,7 @@
-# Ipacaa-Lodge
-It's a responsive web made with HTML and CSS only
+# **Ipacaa Lodge**
+
+- This is a layout made with HTMl and css only.
+
+- It's a real lodge but it's made only for practice.
+
+**Link:** https://jwf12.github.io/Ipacaa-Lodge/Ipacaa/index.html
